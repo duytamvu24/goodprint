@@ -1,0 +1,77 @@
+
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+  }
+
+
+.top{
+    height: 90vh;
+    width: 100vw;
+    background-color: aquamarine;
+    background-size: contain; /* Bild wird skaliert, um den gesamten Bereich zu füllen */
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top_text{
+    background-color: antiquewhite;
+}
+
+.top_image{
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: rgb(150, 100, 34);
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.untertitel{
+    font-size: 30px;
+}
+
+.info_leiste{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(27, 55, 137);
+    display: grid;
+    grid-template-columns: 0.2fr 0.6fr 0.2fr;
+}
+
+.insta{
+    background-color: aqua;
+}
+
+.logo{
+    background-color: blue;
+}
+.contact{
+    background-color: brown;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.sub{
+    height: 30vh;
+    width: 100vw;
+    background-color: rgb(13, 107, 76);
+}
+
+.sub2{
+    background-color: rgb(33, 104, 80);
+}
+
+.sub2{
+    background-color: rgb(33, 104, 80);
+}
+.sub3{
+    background-color: beige;
+}
