@@ -6,8 +6,9 @@
   }
 
 
+
 .top{
-    height: 90vh;
+    height: 95vh;
     width: 100vw;
     background-color: aquamarine;
     background-size: contain; /* Bild wird skaliert, um den gesamten Bereich zu füllen */
@@ -16,8 +17,17 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.goodprint{
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+  }
+
 .top_text{
     background-color: antiquewhite;
+    margin: 20px 5px 5px 5px;
 }
 
 .top_image{
@@ -30,14 +40,19 @@
     font-size: 40px;
     font-weight: 100;
     margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 .untertitel{
     font-size: 30px;
 }
 
+.text{
+    margin-left: 10px;
+}
+
 .info_leiste{
-    height: 10vh;
+    height: 5vh;
     width: 100vw;
     background-color: rgb(27, 55, 137);
     display: grid;
@@ -46,10 +61,17 @@
 
 .insta{
     background-color: aqua;
+
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .logo{
     background-color: blue;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .contact{
     background-color: brown;
